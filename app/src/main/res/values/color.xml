@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_black">#393939</color>
+    <drawable name="theme_black">#393939</drawable>
+    <color name="theme_yellow">#FFDC00</color>
+    <drawable name="theme_yellow">#FFDC00</drawable>
+    
+    <color name="red_light">#e74c3c</color>
+    <color name="gray_dk">#313031</color>
+    <color name="white_smoke">#F7F7F7</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="blue_sky">#33b5e5</color>
+    <color name="gray">#5B5B5B</color>
+    <drawable name="trans_draw">#00000000</drawable>
+    <drawable name="trans_gray_draw">#FFFACD</drawable>
+
+    <color name="black_overlay">#66000000</color>
+    <!--<color name="white">#FFFFFF</color>-->
+    <!--<color name="black">#000000</color>-->
+    <!--<color name="gray">#808080</color>-->
+    <color name="red">#FF0000</color>
+    <color name="gold">#FFD700</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="green">#008000</color>
+    <color name="blue">#0000FF</color>
+    <color name="purple">#800080</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="orange">#FFA500</color>
+    <color name="lemonyellow">#FFFACD</color>
+    <color name="graywhite">#F5F5F5</color>
+    <color name="grayslate">#708090</color>
+    <color name="lightblue">#0083FF</color>
+
+    <color name="listitem_transparent">#00000000</color>
+    <color name="listitem_black">#ff000000</color>
+    <color name="listitem_white">#ffffffff</color>
+    <color name="listitem_blue">#0e5986</color>
+    <color name="listitem_gray">#ff9da19e</color>
+    <color name="listitem_green">#ffe3ffc6</color>
+    <color name="listitem_greenyellow">#ff87b869</color>
+    <color name="listitem_yellow">#fffaffbf</color>
+
+    <color name="head_text">#0e5986</color>
+    <color name="author_text">#0e5986</color>
+    <color name="face_bg">#eef1f4</color>
+
+    <color name="indianred">#CD5C5C</color>
+    <!-- 印第安红 -->
+    <color name="mediumvioletred">#C71585</color>
+    <!-- 中紫罗兰色 -->
+
+    <!-- drop down list header font color -->
+    <color name="drop_down_list_header_font_color">#000000</color>
+    <!-- drop down list header second font color -->
+    <color name="drop_down_list_header_second_font_color">#000000</color>
+    <!-- drop down list footer font color -->
+    <color name="drop_down_list_footer_font_color">#000000</color>
+
+    <color name="list_pull_back">#eeeeee</color>
+    <color name="popup_bg">#f2f2f2</color>
+
+
+
+    <color name="gray_background">#ebecee</color>
+    <color name="button_background">#40bcd5</color>
+    <color name="pink_background">#ff4d4d</color>
+    <color name="bm_green_background">#92cf68</color>
+    <color name="bm_blue_background">#58b5e1</color>
+    <color name="bm_yellow_background">#fcc954</color>
+    <color name="bm_orange_background">#f7774a</color>
+    <color name="bm_pink_background">#fa6567</color>
+    <color name="bm_violet_background">#c066a6</color>
+    <color name="bm_shallow_green_background">#92cf68</color>
+    <color name="bm_shallow_blue_background">#58b5e1</color>
+
+    <color name="bottom_blue">#00468C</color>
+
+</resources>

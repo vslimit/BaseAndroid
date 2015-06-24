@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal" android:descendantFocusability="blocksDescendants" android:focusableInTouchMode="false"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" >
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            >
+        <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image"
+                android:layout_width="51dp"
+                android:layout_height="51dp"
+                android:src="@drawable/ic_launcher"
+                app:border_width="2dp"
+                android:layout_marginTop="10dp"
+                app:border_color="@color/lemonyellow"
+                android:layout_marginLeft="10dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="宁贵人"
+                  android:id="@+id/name"
+                  android:layout_marginTop="8dp"
+                  android:gravity="center_vertical"
+                  android:layout_gravity="center_horizontal"
+                />
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            >
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="猫窝出售，9层新"
+                  android:id="@+id/title"
+                  android:textSize="@dimen/font_middle"
+                  android:textAppearance="@android:style/TextAppearance.Medium" android:layout_marginTop="12dp"
+                />
+        <LinearLayout android:layout_width="match_parent" android:layout_marginTop="6dp"
+                      android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:textSize="@dimen/font_small"
+                      android:id="@+id/community_name"
+                      android:text="小区：凤凰社"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:textSize="@dimen/font_small"
+
+                      android:id="@+id/distance"
+                      android:text="距离1400m"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:textSize="@dimen/font_small"
+                      android:id="@+id/date"
+                      android:text="2015-01-12 15:30"/>
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_marginTop="12dp"
+                      android:layout_height="wrap_content">
+            <GridView
+                    android:id="@+id/gridview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:columnWidth="75dp"
+                    android:numColumns="auto_fit"
+                    android:horizontalSpacing="10dp"
+                    android:focusable="false"
+                    android:verticalSpacing="10dp"
+                    android:stretchMode="columnWidth"
+                    android:gravity="left">
+            </GridView>
+        </LinearLayout>
+        <View android:layout_marginTop="10dp"
+              android:layout_height="1px"
+              android:background="#dddddd"
+              android:layout_width="fill_parent">
+        </View>
+        <RelativeLayout android:layout_marginTop="6dp" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textColor="#ff7547"
+                      android:textSize="@dimen/font_small"
+                      android:text="支持以物换物" android:id="@+id/flag"
+                    />
+            <TextView
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp" android:id="@+id/price"
+                    android:textSize="@dimen/font_small"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textColor="#d90000" android:text="￥69.00元"
+                    />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

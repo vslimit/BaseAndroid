@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<string name="version_url">MenuActivity</string>-->
+    <string name="http">http://f.tbagame.com</string>
+    <string name="api">/api</string>
+    <string name="h5">/h5</string>
+    <string name="region_url">/community/region?</string>
+    <string name="community_search_url">/community/search4create?</string>
+    <string name="community_create_url">/community/create</string>
+    <string name="register_url">/community/create</string>
+    <string name="media_url">/liveApp/tpl?id=1</string>
+    <string name="h5_message_group_url">/message/group</string>
+    <string name="h5_region_master_url">/regionMaster</string>
+    <string name="h5_region_master_status_url">/regionMaster/status</string>
+    <string name="test_url">/liveApp/test</string>
+    <string name="bm_url">/communityMaster</string>
+    <string name="bm_detail_url">/communityMaster/view</string>
+    <string name="message_url">/message/inbox</string>
+    <string name="message_system_url">/message/system</string>
+    <string name="work_flow_url">/workFlow</string>
+    <string name="work_flow_detail_url">/workFlow/view</string>
+    <string name="stat_url">/stat</string>
+    <string name="stat_rank_url">/stat/rank</string>
+    <string name="slide_url">/slider</string>
+    <string name="live_url">/incoming/liveApp</string>
+    <string name="ad_url">/incoming/ad</string>
+    <string name="info_url">/regionMaster/info</string>
+    <string name="send_url">/message/create</string>
+    <string name="upload_url">/upload</string>
+    <string name="c2c_list_url">/publish/list/c2cTest</string>
+    <!--<string name="nba_news_url">/news_rsses?part=nba</string>-->
+    <!--<string name="cba_news_url">/news_rsses?part=cba</string>-->
+    <!--<string name="news_rss_url">/news_rsses/</string>-->
+    <!--<string name="login_url">/login</string>-->
+    <!--<string name="reg_url">/reg</string>-->
+    <!--<string name="follow">/follow/</string>-->
+    <!--<string name="unfollow">/unfollow/</string>-->
+    <!--<string name="followers">/followers</string>-->
+    <!--<string name="user_url">/users/1</string>-->
+    <!--<string name="loading">加载数据中......</string>-->
+</resources>

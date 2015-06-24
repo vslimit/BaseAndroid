@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                tools:context="com.vslimit.baseandroid.app.activity.SlideViewActivity">
+
+    <FrameLayout android:id="@+id/framelayout"
+                 android:layout_width="match_parent"
+                 android:layout_height="180dp"
+                 android:background="#ffffff">
+        <com.vslimit.baseandroid.app.widgets.viewflow.ViewFlow
+                android:id="@+id/viewflow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        <RelativeLayout android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="3dip"
+                        android:layout_gravity="bottom"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:background="#88252525">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="测试服务123"
+                    android:layout_gravity="left|center_vertical"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/white"
+                    android:id="@+id/textView"/>
+            <com.vslimit.baseandroid.app.widgets.viewflow.CircleFlowIndicator
+                    android:padding="2dip"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/viewflowindic"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    app:radius="4dip"
+                    app:circleSeparation="20dip"
+                    app:inactiveType="fill"
+                    app:activeType="fill"
+                    app:activeColor="#ffdc73"
+                    app:inactiveColor="#ffffff"
+                    />
+        </RelativeLayout>
+    </FrameLayout>
+
+</RelativeLayout>
